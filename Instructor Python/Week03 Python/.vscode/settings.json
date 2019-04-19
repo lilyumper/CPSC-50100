@@ -1,0 +1,22 @@
+{
+  "python.linting.pylintEnabled": true,
+  "python.jediEnabled": false,
+  "python.pythonPath": "python.exe",
+  "[python]": {
+    "editor.fontSize": 15,
+    "editor.snippetSuggestions": "top",
+    "editor.autoIndent": true,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4 ,
+    "editor.fontFamily":"Consolas, 'Courier New', monospace",
+    // "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true
+  },
+  "[jsonc]": {
+    "editor.fontSize": 12,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+}

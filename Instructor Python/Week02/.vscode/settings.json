@@ -1,0 +1,6 @@
+{
+  "python.linting.pylintEnabled": true,
+  "python.pythonPath": "python.exe",
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top"
+}

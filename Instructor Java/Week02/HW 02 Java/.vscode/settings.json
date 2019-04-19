@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/.editorconfig": true,
+    "**/.classpath": false
+  },
+  "[java]": {
+    "editor.tabCompletion": "on",
+    "editor.snippetSuggestions": "top",
+    "editor.fontSize":14
+  }
+}

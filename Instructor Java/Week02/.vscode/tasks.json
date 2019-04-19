@@ -1,0 +1,38 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "JC",
+      "type": "shell",
+      "windows": {
+        "command": "javac",
+        "args": [
+          "src/main/java/Start.java",
+          "-cp",
+          "src/main/java",
+          "-d",
+          "classes",
+          "-g"
+        ]
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "JR",
+      "type": "shell",
+      "windows": {
+        "command": "java",
+        "args": [
+          "-cp",
+          "classes",
+          "Start"
+        ]
+      },
+      "problemMatcher": []
+    }
+  ]
+}

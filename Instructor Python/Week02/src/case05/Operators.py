@@ -1,0 +1,35 @@
+class Operators():
+    def demoRelationalOp(self, a: int, b: int):
+        print(f"")
+        print(f"Relational Operator Demo")
+        print(f"a={a} b={b}")
+        print(f"a == b = {(a == b)}")
+        print(f"a != b = {(a != b)}")
+        print(f"a > b = {(a > b)}")
+        print(f"a < b = {(a < b)}")
+        print(f"b >= a = {(b >= a)}")
+        print(f"b <= a = {(b <= a)}")
+
+    def demoBitwiseOp(self, a: int, b: int):
+        print(f"")
+        print(f"Bitwise Operator Demo")
+        print(f"a={a} b={b}")
+        print(f"a & b = {(a & b)}")
+        print(f"a | b = {(a | b)}")
+        print(f"a ^ b = {(a ^ b)}")
+        print(f" ~a  = {(~a)}")
+        print(f" ~b  = {(~b)}")
+        print(f" a>>2  = {(a>>2)}")
+        print(f" b>>2  = {(b>>2)}")
+        print(f" a<<2  = {(a<<2)}")
+        print(f" b<<2  = {(b<<2)}")
+        print(f"b <= a = {(b<=a)}")
+
+    def demoLogicalOp(self, x: int, y: int, z: int):
+        print(f"")
+        print(f"Logical Operator Demo")
+        print(f"x={x} y={y} z={z}")
+        print(f" x>y & y>z-->{(x>y & y>z)}")
+        print(f" x>y | y>z-->{(x>y | y>z)}")
+        print(f" x>y ^  y>z-->{(x>y  ^ y>z)}")
+        print(f" !(x>y)--> {(not (x>y))}")

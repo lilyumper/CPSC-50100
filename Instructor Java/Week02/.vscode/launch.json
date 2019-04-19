@@ -1,0 +1,11 @@
+{
+  "configurations": [{
+      "type": "java",
+      "name": "Debug (Launch) - External Terminal",
+      "request": "launch",
+      "console": "externalTerminal",
+      "mainClass": "Start"
+    }
+
+  ]
+}
