@@ -1,0 +1,30 @@
+{
+  "files.exclude": {
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/.editorconfig": true,
+    "**/.classpath": false
+  },
+  "java.home": "C:/Coding/Java/jdk-12",
+  "[java]": {
+    "editor.fontSize": 20,
+    "editor.fontFamily": "Fira Code Retina",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "200",
+    "editor.formatOnSave": true,
+    "editor.autoIndent": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "on",
+    "editor.suggest.snippetsPreventQuickSuggestions": true
+  },
+  "[jsonc]": {
+    "editor.fontSize": 20,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+}

@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python:(External Terminal)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Start.py",
+      "console": "externalTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Python:(Integrated Terminal)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/Start.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
