@@ -27,7 +27,7 @@ def std(array):
         sum+= math.pow((x - mean), 2)
         print(f'sum: {sum}')
 
-    result = math.sqrt(sum/length)
+    result = math.sqrt(sum/length-1)
     print(f'Standard Deviation: {result}')
     return result
 

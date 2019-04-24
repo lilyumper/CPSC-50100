@@ -43,7 +43,7 @@ public class Main {
             System.out.println("sum: " + sum);
 
         }
-        standardDeviation = Math.sqrt(sum/length);
+        standardDeviation = Math.sqrt(sum/length-1);
 
         System.out.println("Standard Dev: "+ standardDeviation);
         return (standardDeviation);
