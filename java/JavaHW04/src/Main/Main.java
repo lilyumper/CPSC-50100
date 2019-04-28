@@ -45,6 +45,7 @@ public class Main {
         }
         standardDeviation = Math.sqrt(sum/length-1);
 
+
         System.out.println("Standard Dev: "+ standardDeviation);
         return (standardDeviation);
 
